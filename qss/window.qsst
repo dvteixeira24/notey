@@ -1,0 +1,140 @@
+QWidget#centralwidget {
+    background: #212121
+}
+
+QListView {
+    background: #212121
+}
+
+QDialog {
+    background: #212121
+}
+
+QTextEdit {
+    background: #DFE2EA;
+    border-radius: 9px;
+    padding : 10px;
+}
+
+QCheckBox {
+    color: white
+}
+
+QLabel#title_label {
+    font-size: 28px;
+    color: white;
+}
+
+QPushButton#notes_btn {
+    icon: url(svg:notes.svg);
+    qproperty-iconSize: 28px;
+    padding: 0px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+QPushButton#new_btn {
+    icon: url(svg:new.svg);
+    qproperty-iconSize: 28px;
+    padding: 0px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+QPushButton#save {
+    icon: url(svg:save.svg);
+    qproperty-iconSize: 28px;
+    padding: 0px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+QPushButton {
+    color: white;
+    background-color: #303030;
+    border-radius: 10px;
+    min-width: 48px;
+    min-height: 24px;
+    padding: 3px
+}
+
+QPushButton:checked {
+    background-color: #1B3D7D;
+}
+
+QPushButton:hover {
+    background-color: #4A4A4A;
+}
+
+QPushButton#deletenote:hover {
+    background-color: #B31F1F;
+}
+
+QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:#212121;
+            width:8px;
+            margin: 0px;
+        }
+QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: #DFE2EA;
+        }
+QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        }
+
+QDateTimeEdit {
+	background: #303030;
+	border: 0px solid transparent;
+	color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+QDateTimeEdit::up-button {
+    subcontrol-origin: content;
+    subcontrol-position: top right;
+    width: 16px;
+    border-width: 6px;
+}
+
+QDateTimeEdit::down-button {
+    subcontrol-origin: content;
+    subcontrol-position: bottom right;
+    width: 16px;
+    border-width: 6px;
+}
+
+QDateTimeEdit::up-arrow {
+    image: url(images:spin_up.png);
+    width: 15px;
+    height: 8px;
+}
+
+QDateTimeEdit::down-arrow {
+    image: url(images:spin_down.png);
+    width: 15px;
+    height: 8px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(images:checkbox_unchecked.png);
+}
+
+QCheckBox::indicator:checked {
+    image: url(images:checkbox_checked.png);
+}
